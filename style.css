@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Muli;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+/* Header section */
+
+header .desktop {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+
+header .desktop .logo {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    margin-left: 24px;
+}
+
+header .desktop h1 .s1  {
+    color:#4A4A4A;
+    font-weight: bold;
+}
+
+header .desktop h1 .s2  {
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 8px;
+    color: #4A4A4A;
+}
+
+header nav ul li a {
+    color: inherit;
+}
+
+/* Hero section */
+
+.hero-container {
+    display: flex;
+    background: lightgrey;
+}
+
+.hero-container .hero-image-container {
+    display: flex;
+    width: 60%;
+    padding: 32px 24px;
+   
+}
+
+.hero-container .hero-content-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 240px;
+    margin-right: 80px;
+}
+
+.hero-content-container h2 p {
+    font-weight: 700;
+    color: #4A4A4A;
+}
+
+.hero-content-container .button {
+    background-color: #4A4A4A;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #FEFEFE;
+}
+
+
+/* Practice section */
+
+.practice-container {
+    display: flex;
+}
+
+.practice-container .practice-image-container {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.practice-container .practice-content-container {
+    padding-left: 24px;
+}
+
+
+.practice-container .practice-content-container h2 {
+    margin-bottom: 24px;
+}
+
+
+
+.college-info-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+}
+
+.college-info-container a {
+    color: #4E92E2;
+}
+
+.college-info-container p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.orientation-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.orientation-image  {
+    padding: 16px 16px;
+}
+
+
+.orientation-content {
+    padding: 16px 16px;
+    width: 65%;
+}
+
+.campus-container {
+    display: flex;
+    align-items: center;
+}
+
+.campus-image {
+    padding: 16px 16px;
+}
+
+
+.campus-content {
+    padding: 16px 16px;
+    width: 65%;
+}
+
+.guest-lecture-container {
+    display: flex;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+
+.guest-lecture-image {
+    padding: 16px 16px;
+}
+
+.guest-lecture-content {
+    padding: 16px 16px;
+    width: 65%; 
+}
+
+/* Mobile styling */
+header .mobile {
+    display: none;
+}
