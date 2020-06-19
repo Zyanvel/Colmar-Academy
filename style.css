@@ -57,19 +57,29 @@ header nav ul li a {
     background: lightgrey;
 }
 
-.hero-container .hero-image-container {
+.hero-image-container {
     display: flex;
-    width: 60%;
     padding: 32px 24px;
    
+}
+
+.hero-image {
+    width: 100%;
 }
 
 .hero-container .hero-content-container {
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left: 240px;
-    margin-right: 80px;
+
+}
+
+.hero-content-container h2 {
+    font-size: 50px;
+}
+
+.hero-content-container p {
+    font-size: 20px;
 }
 
 .hero-content-container h2 p {
@@ -78,15 +88,23 @@ header nav ul li a {
 }
 
 .hero-content-container .button {
+    font-size: 15px;
     background-color: #4A4A4A;
     border: none;
     padding-top: 8px;
     padding-bottom: 8px;
+    width: 400px;
     color: #FEFEFE;
 }
 
-
 /* Practice section */
+
+.practice-container {
+    margin-bottom: 32px;
+}
+.image-text-container {
+    width: 60%;    
+}
 
 .practice-container {
     display: flex;
@@ -94,7 +112,10 @@ header nav ul li a {
 
 .practice-container .practice-image-container {
     padding: 32px 24px;
-    width: 60%;
+}
+
+.practice-image {
+    width: 100%;
 }
 
 .practice-container .practice-content-container {
@@ -108,11 +129,15 @@ header nav ul li a {
 
 
 
+
 .college-info-container {
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 40%;
+    border-left: 1px solid #E0E2E2;
+    position: relative;
+    top: 16px;
+    
 }
 
 .college-info-container a {
@@ -127,48 +152,71 @@ header nav ul li a {
 .orientation-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #E0E2E2;
 }
 
 
 .orientation-image  {
     padding: 16px 16px;
+    width: 35%;
+    margin: auto;
 }
 
+.orientation-picture {
+    width: 100%;
+}
 
 .orientation-content {
-    padding: 16px 16px;
     width: 65%;
+    
 }
 
 .campus-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #E0E2E2;
 }
 
 .campus-image {
     padding: 16px 16px;
+    width: 35%;
+    margin: auto;
+}
+
+.campus-picture {
+    width: 100%;
 }
 
 
 .campus-content {
-    padding: 16px 16px;
     width: 65%;
+    
 }
 
 .guest-lecture-container {
     display: flex;
     align-items: center;
     background-color: #D8D8D8;
+    border-bottom: 1px solid #E0E2E2;
 }
 
 .guest-lecture-image {
     padding: 16px 16px;
+    width: 35%;
+    margin: auto;
 }
 
 .guest-lecture-content {
-    padding: 16px 16px;
     width: 65%; 
+    
 }
+
+.guest-picture {
+    width: 100%;
+}
+
+/* Start Learning Section */
+
 
 /* Mobile styling */
 header .mobile {
