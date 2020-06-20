@@ -217,6 +217,145 @@ header nav ul li a {
 
 /* Start Learning Section */
 
+.start-learning-container {
+    padding: 32px 72px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #EAEBEC;
+}
+
+.start-learning-textbox {
+    display: flex;
+    margin-bottom: 32px;
+   
+}
+
+.courses-container {
+    display: flex;
+}
+
+.software-eng-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 32px;
+
+}
+
+.software-eng-image {
+    height: auto;
+}
+
+.course-software-picture {
+    width: 100%;
+}
+
+.software-eng-text {
+    background: white;
+    padding: 16px 16px;
+    margin-top: -4px;
+}
+
+
+.pcourses {
+    padding: 8px 0px;
+}
+
+.computer-art-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 32px;
+}
+
+.computer-art-image {
+    height: auto;
+}
+
+.computer-art-picture {
+    width: 100%;
+}
+
+.computer-art-text {
+    background: white;
+    padding: 16px 16px;
+    margin-top: -4px;
+}
+
+.design-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 32px;
+}
+
+.design-image {
+    height: auto;
+}
+
+.design-picture {
+    width: 100%;
+}
+
+.design-text {
+    background: white;
+    padding: 16px 16px;
+    margin-top: -4px;
+}
+
+.courses-container-two {
+
+}
+
+.data-container {
+
+}
+
+.data-image {
+
+}
+
+.data-picture {
+
+}
+
+.data-text {
+
+}
+
+.business-container {
+
+}
+
+.business-image {
+
+}
+
+.business-picture {
+
+}
+
+.business-text {
+
+}
+
+.marketing-container {
+
+}
+
+.marketing-image {
+
+}
+
+.marketing-picture {
+
+}
+
+.marketing-text {
+
+}
 
 /* Mobile styling */
 header .mobile {
