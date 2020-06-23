@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -31,11 +33,6 @@ header .desktop h1 .s2  {
     color: #9B9B9B;
 }
 
-header nav {
-    display: flex;
-    align-items: center;
-    margin-right: 16px;
-}
 
 header nav ul {
     display: flex;
@@ -126,9 +123,6 @@ header nav ul li a {
 .practice-container .practice-content-container h2 {
     margin-bottom: 24px;
 }
-
-
-
 
 .college-info-container {
     display: flex;
@@ -378,9 +372,143 @@ header nav ul li a {
     margin-top: -4px;
 }
 
-/* Mobile styling */
-header .mobile {
-    display: none;
+/* Thesis Exhibition Section */
+
+.thesis-exhibit-container {
+    padding: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F5F5;
 }
 
-/* Thesis Exhibition Section */
+.thesis-exhibit-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.video-text-container {
+    padding: 0px 24px;
+    width: 60%;
+}
+
+.thesis-video {
+    width: 100%;;
+}
+
+.thesis-content-container {
+    margin-top: 24px;
+}
+
+.thesis-quote {
+    margin-top: 8px;;
+}
+
+.thesis-moreinfo-big-container {
+    display: flex;
+}
+
+.thesis-moreinfo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-moreinfo-container {
+    width: 40%;
+    position: relative;
+}
+
+.fisma-container {
+    display: flex;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+
+.fisma-image {
+    width: 35%;
+    height: auto;
+    padding: 16px 16px;
+}
+
+.fisma-picture {
+    width: 100%;
+}
+
+.fisma-content {
+    width: 65%;
+    margin-right: 16px;
+}
+
+.now-then-container {
+    display: flex;
+    align-items: center;
+}
+
+.now-then-image {
+    width: 35%;
+    height: auto;
+    padding: 16px 16px;
+}
+
+.now-then-picture {
+    width: 100%;
+}
+
+.now-then-content {
+    width: 65%;
+    margin-right: 16px;
+}
+
+.thesis-t {
+    margin-bottom: 8px;
+}
+
+/* Footer Section */
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 24px;
+    }
+
+.footer nav ul {
+        display: flex;
+}
+
+.footer nav ul li {
+        padding: 10px;
+}
+
+/* Mobile styling */
+
+@media only screen and (max-width: 607px) {
+    header .desktop {
+        display: none;
+    }
+
+    
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .mobile {
+        height: 64px;
+        padding: 15px;
+    }
+
+   
+}
+
+/* Desktop styling */
+
+@media only screen and (min-width: 607px) {
+    header .mobile {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+         align-items: center;
+         margin-right: 16px;
+     }
+}
