@@ -8,164 +8,12 @@
     list-style-type: none;
 }
 
-/* MOBILE styling */
-
-@media only screen and (max-width: 607px) {
-    header .desktop {
-        display: none;
-    }
-
-    
-    header nav ul {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    header .mobile {
-        height: 64px;
-        padding: 15px;
-    }
-
-/* Hero section */
-
-    .hero-container {
-        background: #DBDBDB;
-    }
-
-    .hero-image-container {
-        display: flex;
-    }
-
-    .hero-image {
-        width: 100%;
-    }
-
-    .hero-container .hero-content-container {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        padding: 32px 16px;
-        align-items: center;
-
-    }
-
-    .hero-content-container h2 {
-        font-size: 50px;
-    }
-    
-    .hero-content-container p {
-        font-size: 30px;
-        padding-top: 32px;
-        padding-bottom: 24px;
-    }
-
-    .hero-content-container h2 p {
-        font-weight: 700;
-        color: #4A4A4A;
-    }
-
-    .hero-content-container .button {
-        font-size: 25px;
-        background-color: #9B9B9B;
-        border: none;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 400px;
-        color: #FEFEFE;
-    }
-
-/* Practice section */
-
-    .image-text-container {
-        display: none;
-    }   
- 
-    .college-info-container {
-        display: flex;
-        flex-direction: column;
-        padding: 16px 16px;   
-    }
-
-    .college-info-container a {
-        color: #4E92E2;
-    }
-
-    .college-info-container p {
-        margin-top: 8px;
-        margin-bottom: 8px;
-    }
-
-    .orientation-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    }
-
-
-    .orientation-image  {
-        width: 35%;
-        margin: auto;
-    }
-
-    .orientation-picture {
-        width: 100%;
-    }
-
-    .orientation-content {
-        width: 65%;
-        
-    }
-
-    .campus-container {
-        display: flex;
-        align-items: center;
-        border-bottom: 1px solid #E0E2E2;
-    }
-
-    .campus-image {
-        width: 35%;
-        margin: auto;
-    }
-
-    .campus-picture {
-        width: 100%;
-    }
-
-
-    .campus-content {
-        width: 65%;
-        
-    }
-
-    .guest-lecture-container {
-        display: flex;
-        align-items: center;
-    }
-
-    .guest-lecture-image {
-        width: 35%;
-        margin: auto;
-    }
-
-    .guest-lecture-content {
-        width: 65%; 
-        
-    }
-
-    .guest-picture {
-        width: 100%;
-    }
-
-
-
-}
-
-
-
-/* DESKTOP styling */
+/* Desktop styling */
 
 @media only screen and (min-width: 607px) {
+    
+/* Header section */
+
     header .mobile {
         display: none;
     }
@@ -176,7 +24,7 @@
          margin-right: 16px;
      }
 
-/* Header section */
+
 
     header .desktop {
         display: flex;
@@ -215,7 +63,7 @@
         color: inherit;
     }
 
-/* Hero section */
+    /* Hero section */
 
     .hero-container {
         display: flex;
@@ -262,7 +110,11 @@
         color: #FEFEFE;
     }
 
-/* Practice section */
+    /* Practice section */
+
+    .practice-container-mobile {
+        display: none;
+    }
 
     .practice-container {
         margin-bottom: 32px;
@@ -377,7 +229,11 @@
         width: 100%;
     }
 
-/* Start Learning Section */
+    /* Start Learning Section */
+
+    .start-learning-container-mobile {
+        display: none;
+    }
 
     .start-learning-container {
         padding: 32px 72px;
@@ -540,7 +396,11 @@
         margin-top: -4px;
     }
 
-/* Thesis Exhibition Section */
+    /* Thesis Exhibition Section */
+
+    .thesis-exhibit-container-mobile {
+        display: none;
+    } 
 
     .thesis-exhibit-container {
         padding: 32px 0px;
@@ -631,7 +491,11 @@
         margin-bottom: 8px;
     }
 
-/* Footer Section */
+    /* Footer Section */
+
+        .footer-mobile {
+            display: none;
+        }
 
         .footer {
             display: flex;
@@ -647,3 +511,221 @@
             padding: 10px;
     }
 }
+
+/* Mobile styling */
+
+@media only screen and (max-width: 607px) {
+    header .desktop {
+        display: none;
+    }
+
+    
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .mobile {
+        height: 64px;
+        padding: 15px;
+    }
+
+    /* Hero section */
+
+    .hero-container {
+        background: #DBDBDB;
+    }
+
+    .hero-image-container {
+        display: flex;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-container .hero-content-container {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 32px 16px;
+        align-items: center;
+
+    }
+
+    .hero-content-container h2 {
+        font-size: 50px;
+    }
+    
+    .hero-content-container p {
+        font-size: 30px;
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    .hero-content-container h2 p {
+        font-weight: 700;
+        color: #4A4A4A;
+    }
+
+    .hero-content-container .button {
+        font-size: 25px;
+        background-color: #9B9B9B;
+        border: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 400px;
+        color: #FEFEFE;
+    }
+   
+    /* Practice section */
+
+    .practice-container {
+        display: none;
+    }
+
+    .college-info-container-mobile {
+        padding: 16px 16px 32px 16px;
+        background: #F3F5F5;
+    }
+
+    .college-info-container-mobile h4 {
+        font-size: 30px;
+    }
+
+    .college-info-container-mobile a {
+        font-size: 20px;
+    }
+
+    .orientation-content-mobile {
+        padding-left: 16px;
+        padding-top: 20px;
+    }
+
+    .campus-container-mobile {
+        padding: 64px 0px;
+    }
+
+    .campus-content-mobile {
+        padding-left: 16px;
+        padding-top: 20px;
+    }
+
+    .guest-lecture-content-mobile {
+        padding-left: 16px;
+        padding-top: 20px;
+    }
+
+    .special-p {
+        padding: 8px 0px;
+        font-size: 20px;
+    }
+
+    /* Start Learning Section */
+
+    .start-learning-container {
+        display: none;
+    }
+
+    .start-learning-container-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background: #F6F4F5;
+        padding: 32px 0px;
+    }
+
+    .start-learning-textbox-mobile {
+        display: flex;
+        padding-bottom: 16px;
+        
+    }
+
+    .start-learning-textbox-mobile h2 {
+        font-size: 30px;
+    }
+
+    .courses-container-mobile h4 {
+        font-size: 20;
+    }
+
+    .software-engin-mobile {
+        background: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+
+    .computer-art-mobile {
+        background: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+
+    .design-mobile {
+        background: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+
+    .data-mobile {
+        background: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+
+    .business-mobile {
+        background: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+        margin-bottom: 8px;
+    }
+
+    .marketing-mobile {
+        background: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+    }
+
+     /* Thesis Exhibit Section */
+
+    .thesis-exhibit-container {
+        display: none;
+    }
+
+    .thesis-exhibit-container-mobile {
+        padding-top: 32px;
+        padding-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F3F5F5;
+    }
+
+    .thesis-exhibit-text-mobile {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 16px;
+    }
+
+    .video-container-mobile {
+
+    }
+
+    .thesis-video-mobile {
+        width: 100%;
+    }
+
+    /* Footer Section */
+
+    .footer {
+        display: none;
+    }
+
+    .footer-mobile {
+        padding: 16px 0;
+        background: #F3F5F5;
+    }
+
+    .copyright-mobile {
+        padding-left: 30px;
+    }
+}
+
